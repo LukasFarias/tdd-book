@@ -1,13 +1,3 @@
-interface Object {
-    amount: Dolar;
-}
-
-interface DolarDTO {
-    value: number;
-}
-
-
-
 export default class Dolar {
 
     private amount: number;
